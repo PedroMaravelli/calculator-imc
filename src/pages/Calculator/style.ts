@@ -17,8 +17,9 @@ border-radius: 8px;
 margin-left: 5rem;
 width: 30%;
 background-color:#262626 ;
-padding: 2rem 3rem;
+padding: 3rem 3rem;
 gap: 2rem;
+backdrop-filter: blur(5.5px);
 
 strong{
     color: white;
@@ -29,7 +30,7 @@ export const ImgPeoples = styled.img`
 width: 35%;
 `
 
-export const ContentCardCalculator = styled.div`
+export const ContentCardCalculator = styled.form`
 display: flex;
 flex-direction: column;
 width: 100%;
@@ -54,6 +55,7 @@ margin-bottom: 1rem;
 input{
     width: 90%;
     background-color: transparent;
+    outline: none;
     margin-left: 0.9rem;
     border: none;
     outline: none;
