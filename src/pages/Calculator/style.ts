@@ -74,6 +74,8 @@ color: white;
 font-weight: bold;
 font-size: 1.2rem;
 border-radius: 4px;
+
+
 `
 
 export const LinkSiteImc = styled.a`
@@ -84,5 +86,34 @@ gap: 0.5rem;
 text-decoration: none;
 font-weight: 600;
 `
+export const ResultImcvalue = styled.div`
+display: flex;
+align-items: center;
+gap: 2rem;
+margin-top: 1rem;
+border-top: 1px solid gray;
+padding-top: 1.8rem;
 
+
+`
+
+export const ImcContainer = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+p{
+    font-size: 2.25rem;
+    color : #5a189a;
+}
+span{
+    font-size: 0.875rem;
+    color: #cbd5e1;
+}
+
+:last-child{
+    font-size: 1rem;
+    color:#fbfafc;
+}
+`
 
